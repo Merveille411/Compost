@@ -29,7 +29,7 @@ Les interactions entre les différents composants ainsi que la structure de base
 
 ## À propos des fichiers
 **EAGLE/**    
-  &emsp; &emsp;  **libraries/**    
+  &emsp; &emsp;  **Libraries/**    
   &emsp; &emsp;  Ce fichier contient tout les libraries composants utiliser dans ce projet    
   &emsp; &emsp; `Alimentation.lbr`: La librarie de      
   &emsp; &emsp;  **PCB/**   
