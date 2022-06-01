@@ -46,6 +46,10 @@ De plus, le PCB du compost, qui contient le microprosseur a pu être flashé et 
         
 ![](Image/carteflashe.png)        
                 
+## Conclusion   
+        
+Pour conclure, il nous restez plus qu'à faire le code des différents composants et de réunir l’ensemble des parties pour faire un test global. Il faudrait aussi corriger les choix des pin sur le schéma du PCB du compost afin d'avoir la connection en I2C et UART. Ce projet nous a permis d'avoir une meilleur prise en main sur des logiciels du type EAGLE ou STM32CubeIDE. Nous avons également appris à s'attribuer des tâches de manière efficace, à communiquer et de se fixer des objectifs tout le long du projet.
+
 
 ## À propos des dossiers
 **EAGLE/**    
