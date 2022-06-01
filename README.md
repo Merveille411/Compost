@@ -11,8 +11,7 @@
 
 L’objectif de notre projet était de rendre le compost de l'ENSEA connecté et autonome, qu'il puisse envoyer un message d'alerte si les différents paramètre ne sont pas conforme.   
 Nous arrivons donc au cahier des charges suivant :    
-![](Image/CahierDesCharges.png)   
-(F0 = Impératif, F1 = Peu Négociable, F2 = Négociable et F3 = Très Négociable)    
+![](Image/CahierDesCharges.png)     
 
 FP1 : La référence du capteur de température est [SA56004AD](https://www.nxp.com/part/SA56004AD#/), il est à l’ENSEA. Il lui faut une tension entre 3,3 et 5 V et un courant de 100 microA. [Datasheet](https://www.nxp.com/docs/en/brochure/75015962.pdf)    
 FP2 : La référence du capteur d’acidité est [32638](https://www.gotronic.fr/art-sonde-ph-interface-sen0161-21552.htm), il n’est pas à l’ENSEA, il coûte 32,30€. Il lui faut une tension de 5V. [Datasheet](https://wiki.dfrobot.com/PH_meter_SKU__SEN0161_)    
