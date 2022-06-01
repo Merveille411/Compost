@@ -47,7 +47,9 @@ Les interactions entre les différents composants ainsi que la structure de base
   &emsp; &emsp; `STM32_librairy.lbr`: La librarie du microproccesseur le PCB complet du compost          
   &emsp; &emsp;  **PCB/**   
   &emsp; &emsp;  Ce fichier contient tout les schémas et les boards des composants utiliser dans ce projet   
-  &emsp; &emsp; `Alimentation.sch`: RC car control with keyboard  
+  &emsp; &emsp; `Alimentation.sch`: Le schéma du PCB de l'alimentation      
+  Il utilise les composants suivant :       
+  
   ![](Image/Alimentationsch.png)
   &emsp; &emsp; `Alimentation.brd`: RC car control with keyboard    
   ![](Image/Alimentationbrd.png)
