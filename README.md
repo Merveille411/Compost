@@ -40,7 +40,7 @@ Comme on peut le voir, le pA10 et pA9 permettent soit de faire la connection en 
                 
 Malgrès ça, le PCB du compost et du capteur d'humidité ont leurs composants soudé parfaitement, sans erreur et les valeurs entre chaque point sont juste.               
                 
-![](Image/PCBComplet.png)   
+![](Image/PCBComplet.jpg)   
 
 De plus, le PCB du compost, qui contient le microprosseur a pu être flashé et donc il est prêt à être coder et à l'utilisation.         
         
