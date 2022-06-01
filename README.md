@@ -34,7 +34,7 @@ Les interactions entre les différents composants ainsi que la structure de base
 Globalement, pour tout les PCB, le fichier contraintes a été respecté sauf pour celui du capteur de température. Donc notre PCB est inutilisable.               
 Sur le PCB du compost, on a fait des erreurs sur les pin utilisés par le microprocesseur. Ducoup, on ne peut pas connecté le module LoRa et les capteur en I2C en même temps.
                 
-![](Image/Gant.png)   
+![](Image/erreur1.png)   
                 
 Comme on peut le voir, le pA10 et pA9 permettent soit de faire la connection en UART ou en I2C tandis que pA4 et pA5 ne permet ne permet pas la connection en I2C comme prévu et il aurait fallu donc utilisé les pin pB6 et pB7.
                 
