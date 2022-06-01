@@ -47,23 +47,21 @@ Les interactions entre les différents composants ainsi que la structure de base
   &emsp; &emsp; `STM32_librairy.lbr`: La librarie du microproccesseur le PCB complet du compost          
   &emsp; &emsp;  **PCB/**   
   &emsp; &emsp;  Ce fichier contient tout les schémas et les boards des composants utiliser dans ce projet   
-  &emsp; &emsp; `Alimentation.sch`: Le schéma du PCB de l'alimentation      
-  Il utilise les composants suivant :       
-  
+  &emsp; &emsp; `Alimentation.sch`: Le schéma du PCB de l'alimentation        
   ![](Image/Alimentationsch.png)
-  &emsp; &emsp; `Alimentation.brd`: RC car control with keyboard    
+  &emsp; &emsp; `Alimentation.brd`: Le board du PCB de l'alimentation    
   ![](Image/Alimentationbrd.png)
-  &emsp; &emsp; `CapteurHumidite.sch`: RC car control with keyboard   
+  &emsp; &emsp; `CapteurHumidite.sch`: Le schéma du PCB du capteur d'humidité  
   ![](Image/CapteurHumiditesch.png)
-  &emsp; &emsp; `CapteurHumidite.brd`: RC car control with keyboard  
+  &emsp; &emsp; `CapteurHumidite.brd`: Le board du PCB du capteur d'humidité 
   ![](Image/CapteurHumiditebrd.png)
-  &emsp; &emsp; `CapteurTemperature.sch`: RC car control with keyboard   
+  &emsp; &emsp; `CapteurTemperature.sch`: Le schéma du PCB du capteur dde température  
   ![](Image/CapteurTemperaturesch.png)
-  &emsp; &emsp; `CapteurTemperature.brd`: RC car control with keyboard    
+  &emsp; &emsp; `CapteurTemperature.brd`: Le board du PCB du capteur de température   
   ![](Image/CapteurTemperaturebrd.png)
-  &emsp; &emsp; `PCBCompost.sch`: RC car control with keyboard     
+  &emsp; &emsp; `PCBCompost.sch`:  Le schéma du PCB complet du compost   
   ![](Image/PCBCompostsch.png)
-  &emsp; &emsp; `PCBCompost.brd`: RC car control with keyboard    
+  &emsp; &emsp; `PCBCompost.brd`:  Le board du PCB complet du compost  
   ![](Image/PCBCompostbrd.png)    
   
 **Code/**
