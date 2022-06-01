@@ -4,7 +4,9 @@
 
 ## Sommaire
 - [Introduction](#introduction)
-- [À propos des fichiers](#à-propos-des-fichiers) 
+- [Résulat et problèmes rencontrés](#résulat-et-problèmes-rencontrés)
+- [Conclusion](#conclusion)
+- [À propos des fichiers](#à-propos-des-fichiers)
 
 
 ## Introduction
@@ -27,6 +29,23 @@ Le projet avancera d'après le planning prévisionnel suivant :
 Les interactions entre les différents composants ainsi que la structure de base du projet est illustré de la manière suivante :
 ![](Image/DiagrammeDArchitecture.png)
 
+## Résultat et problèmes rencontrés
+
+Globalement, pour tout les PCB, le fichier contraintes a été respecté sauf pour celui du capteur de température. Donc notre PCB est inutilisable.               
+Sur le PCB du compost, on a fait des erreurs sur les pin utilisés par le microprocesseur. Ducoup, on ne peut pas connecté le module LoRa et les capteur en I2C en même temps.
+                
+![](Image/Gant.png)   
+                
+Comme on peut le voir, le pA10 et pA9 permettent soit de faire la connection en UART ou en I2C tandis que pA4 et pA5 ne permet ne permet pas la connection en I2C comme prévu et il aurait fallu donc utilisé les pin pB6 et pB7.
+                
+Malgrès ça, le PCB du compost et du capteur d'humidité ont leurs composants soudé parfaitement, sans erreur et les valeurs entre chaque point sont juste.               
+                
+![](Image/PCBComplet.png)   
+
+De plus, le PCB du compost, qui contient le microprosseur a pu être flashé et donc il est prêt à être coder et à l'utilisation.         
+        
+![](Image/carteflashe.png)        
+                
 
 ## À propos des dossiers
 **EAGLE/**    
@@ -48,6 +67,7 @@ Les interactions entre les différents composants ainsi que la structure de base
   &emsp; &emsp; `STM32_librairy.lbr`: La librarie du microproccesseur le PCB complet du compost          
   &emsp; &emsp;  **PCB/**   
   &emsp; &emsp;  Ce fichier contient tout les schémas et les boards des composants utiliser dans ce projet   
+                
   &emsp; &emsp; `Alimentation.sch`: Le schéma du PCB de l'alimentation        
         
   ![](Image/Alimentationsch.png)        
@@ -81,3 +101,7 @@ Les interactions entre les différents composants ainsi que la structure de base
   ![](Image/PCBCompostbrd.png)    
   
 **Code/**
+&emsp; &emsp; Ce dossier contient le seul code qu'on a fait, il manque manque le code principal du micropocesseur, le code pHmètre, du campteur de température et d'humidité.           
+&emsp; &emsp; `Screen.cpp`: Le code de l'écran en c++
+
+
