@@ -38,7 +38,7 @@ Sur le PCB du compost, on a fait des erreurs sur les pin utilisés par le microp
                 
 Comme on peut le voir, le pA10 et pA9 permettent soit de faire la connection en UART ou en I2C tandis que pA4 et pA5 ne permet ne permet pas la connection en I2C comme prévu et il aurait fallu donc utilisé les pin pB6 et pB7.
                 
-Malgrès ça, le PCB du compost et du capteur d'humidité ont leurs composants soudé parfaitement, sans erreur et les valeurs entre chaque point sont juste.               
+Malgré ça, le PCB du compost et du capteur d'humidité ont leurs composants soudé parfaitement, sans erreur et les valeurs entre chaque point sont juste.               
                 
 ![](Image/PCBComplet.jpg)   
 
