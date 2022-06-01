@@ -11,6 +11,7 @@
 
 L’objectif de notre projet était de rendre le compost de l'ENSEA connecté et autonome, qu'il puisse envoyer un message d'alerte si les différents paramètre ne sont pas conforme.   
 Nous arrivons donc au cahier des charges suivant :    
+        
 ![](Image/CahierDesCharges.png)     
 
 FP1 : La référence du capteur de température est [SA56004AD](https://www.nxp.com/part/SA56004AD#/), il est à l’ENSEA. Il lui faut une tension entre 3,3 et 5 V et un courant de 100 microA. [Datasheet](https://www.nxp.com/docs/en/brochure/75015962.pdf)    
@@ -31,7 +32,7 @@ Les interactions entre les différents composants ainsi que la structure de base
 **EAGLE/**    
   &emsp; &emsp;  **DRU/**    
   &emsp; &emsp;  Ce dossier contient le fichier contraintes utiliser pour les différents PCB du projet    
-  &emsp; &emsp; `ENSEA_2022_04_08.dru`: La librarie de      
+  &emsp; &emsp; `ENSEA_2022_04_08.dru`: Le fichier contrainte de l'ensea      
   &emsp; &emsp;  **Libraries/**    
   &emsp; &emsp;  Ce dossier contient tout les libraries des composants utiliser dans ce projet    
   &emsp; &emsp; `c1.lbr`: La librarie d'un condensateur de 470 uF utilisé dans le PCB de l'alimentation     
@@ -48,20 +49,35 @@ Les interactions entre les différents composants ainsi que la structure de base
   &emsp; &emsp;  **PCB/**   
   &emsp; &emsp;  Ce fichier contient tout les schémas et les boards des composants utiliser dans ce projet   
   &emsp; &emsp; `Alimentation.sch`: Le schéma du PCB de l'alimentation        
-  ![](Image/Alimentationsch.png)
+        
+  ![](Image/Alimentationsch.png)        
+        
   &emsp; &emsp; `Alimentation.brd`: Le board du PCB de l'alimentation    
-  ![](Image/Alimentationbrd.png)
+        
+  ![](Image/Alimentationbrd.png)    
+        
   &emsp; &emsp; `CapteurHumidite.sch`: Le schéma du PCB du capteur d'humidité  
-  ![](Image/CapteurHumiditesch.png)
-  &emsp; &emsp; `CapteurHumidite.brd`: Le board du PCB du capteur d'humidité 
-  ![](Image/CapteurHumiditebrd.png)
+  
+  ![](Image/CapteurHumiditesch.png)     
+            
+  &emsp; &emsp; `CapteurHumidite.brd`: Le board du PCB du capteur d'humidité    
+        
+  ![](Image/CapteurHumiditebrd.png)     
+        
   &emsp; &emsp; `CapteurTemperature.sch`: Le schéma du PCB du capteur dde température  
-  ![](Image/CapteurTemperaturesch.png)
-  &emsp; &emsp; `CapteurTemperature.brd`: Le board du PCB du capteur de température   
-  ![](Image/CapteurTemperaturebrd.png)
-  &emsp; &emsp; `PCBCompost.sch`:  Le schéma du PCB complet du compost   
-  ![](Image/PCBCompostsch.png)
+        
+  ![](Image/CapteurTemperaturesch.png)      
+        
+  &emsp; &emsp; `CapteurTemperature.brd`: Le board du PCB du capteur de température     
+        
+  ![](Image/CapteurTemperaturebrd.png)      
+        
+  &emsp; &emsp; `PCBCompost.sch`:  Le schéma du PCB complet du compost  
+        
+  ![](Image/PCBCompostsch.png)      
+        
   &emsp; &emsp; `PCBCompost.brd`:  Le board du PCB complet du compost  
+        
   ![](Image/PCBCompostbrd.png)    
   
 **Code/**
