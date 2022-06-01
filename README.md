@@ -67,7 +67,7 @@ De plus, le PCB du compost, qui contient le microprosseur a pu être flashé et 
   &emsp; &emsp; `MC34063A.lbr`: La librarie du régulateur à découpage utilisé dans le PCB de l'alimentation    
   &emsp; &emsp; `RegLineaire.lbr`: La librarie du régulateur linéaire utilisé dans le PCB de l'alimentation ainsi que dans le PCB complet du compost     
   &emsp; &emsp; `STM32_librairy.lbr`: La librarie du microproccesseur le PCB complet du compost          
-                µ
+                
   &emsp; &emsp;  **PCB/**   
   &emsp; &emsp;  Ce fichier contient tout les schémas et les boards des composants utiliser dans ce projet   
                 
@@ -103,7 +103,8 @@ De plus, le PCB du compost, qui contient le microprosseur a pu être flashé et 
         
   ![](Image/PCBCompostbrd.png)    
         
-**Code/**
+**Code/**               
+                
 &emsp; &emsp; Ce dossier contient le seul code qu'on a fait, il manque manque le code principal du micropocesseur, le code pHmètre, du campteur de température et d'humidité.           
 &emsp; &emsp; `Screen.cpp`: Le code de l'écran en c++
 
