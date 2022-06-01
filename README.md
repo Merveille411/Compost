@@ -29,7 +29,7 @@ Le projet avancera d'après le planning prévisionnel suivant :
 Les interactions entre les différents composants ainsi que la structure de base du projet est illustré de la manière suivante :
 ![](Image/DiagrammeDArchitecture.png)
 
-## Résultat et problèmes rencontrés
+## Résulat et problèmes rencontrés
 
 Globalement, pour tout les PCB, le fichier contraintes a été respecté sauf pour celui du capteur de température. Donc notre PCB est inutilisable.               
 Sur le PCB du compost, on a fait des erreurs sur les pin utilisés par le microprocesseur. Ducoup, on ne peut pas connecté le module LoRa et les capteur en I2C en même temps.
