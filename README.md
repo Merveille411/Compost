@@ -29,6 +29,9 @@ Les interactions entre les différents composants ainsi que la structure de base
 
 ## À propos des fichiers
 **EAGLE/**    
+  &emsp; &emsp;  **libraries/**    
+  &emsp; &emsp;  Ce fichier contient tout les libraries composants utiliser dans ce projet    
+  &emsp; &emsp; `Alimentation.lbr`: La librarie de      
   &emsp; &emsp;  **PCB/**   
   &emsp; &emsp;  Ce fichier contient tout les schémas et les boards des composants utiliser dans ce projet   
   &emsp; &emsp; `Alimentation.sch`: RC car control with keyboard  
@@ -47,8 +50,5 @@ Les interactions entre les différents composants ainsi que la structure de base
   ![](Image/PCBCompostsch.png)
   &emsp; &emsp; `PCBCompost.brd`: RC car control with keyboard    
   ![](Image/PCBCompostbrd.png)    
-  &emsp; &emsp;  **libraries/**    
-  &emsp; &emsp;  Ce fichier contient tout les libraries composants utiliser dans ce projet    
-  &emsp; &emsp; `Alimentation.lbr`: La librarie de 
   
 **Code/**
