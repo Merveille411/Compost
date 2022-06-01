@@ -6,7 +6,7 @@
 - [Introduction](#introduction)
 - [Résulat et problèmes rencontrés](#résulat-et-problèmes-rencontrés)
 - [Conclusion](#conclusion)
-- [À propos des fichiers](#à-propos-des-fichiers)
+- [À propos des dossiers](#à-propos-des-dossiers)
 
 
 ## Introduction
