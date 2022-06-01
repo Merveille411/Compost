@@ -27,11 +27,24 @@ Les interactions entre les différents composants ainsi que la structure de base
 ![](Image/DiagrammeDArchitecture.png)
 
 
-## À propos des fichiers
+## À propos des dossiers
 **EAGLE/**    
+  &emsp; &emsp;  **DRU/**    
+  &emsp; &emsp;  Ce dossier contient le fichier contraintes utiliser pour les différents PCB du projet    
+  &emsp; &emsp; `ENSEA_2022_04_08.dru`: La librarie de      
   &emsp; &emsp;  **Libraries/**    
-  &emsp; &emsp;  Ce fichier contient tout les libraries composants utiliser dans ce projet    
-  &emsp; &emsp; `Alimentation.lbr`: La librarie de      
+  &emsp; &emsp;  Ce dossier contient tout les libraries des composants utiliser dans ce projet    
+  &emsp; &emsp; `c1.lbr`: La librarie d'un condensateur de 470 uF utilisé dans le PCB de l'alimentation     
+  &emsp; &emsp; `c2.lbr`: La librarie d'un condensateur de 100 uF utilisé dans le PCB de l'alimentation     
+  &emsp; &emsp; `c3.lbr`: La librarie d'un condensateur de 470 pF utilisé dans le PCB de l'alimentation      
+  &emsp; &emsp; `CapteurHumidite.lbr`: La librarie du capteur d'humidité     
+  &emsp; &emsp; `CapteurTemperature.lbr`: La librarie du capteur de température     
+  &emsp; &emsp; `cin.lbr`: La librarie d'un condensateur de 10 uF utilisé dans le PCB de l'alimentation ainsi que dans le PCB complet du compost      
+  &emsp; &emsp; `cout.lbr`: La librarie d'un condensateur de 22 uF utilisé dans le PCB de l'alimentation ainsi que dans le PCB complet du compost      
+  &emsp; &emsp; `l.lbr`: La librarie d'une bobine de 220 uH utilisé dans le PCB de l'alimentation     
+  &emsp; &emsp; `MC34063A.lbr`: La librarie du régulateur à découpage utilisé dans le PCB de l'alimentation    
+  &emsp; &emsp; `RegLineaire.lbr`: La librarie du régulateur linéaire utilisé dans le PCB de l'alimentation ainsi que dans le PCB complet du compost     
+  &emsp; &emsp; `STM32_librairy.lbr`: La librarie du microproccesseur le PCB complet du compost          
   &emsp; &emsp;  **PCB/**   
   &emsp; &emsp;  Ce fichier contient tout les schémas et les boards des composants utiliser dans ce projet   
   &emsp; &emsp; `Alimentation.sch`: RC car control with keyboard  
